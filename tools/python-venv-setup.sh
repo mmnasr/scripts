@@ -6,6 +6,7 @@ echo "virtual environment name: $1"
 virtualenv $1
 source $1/bin/activate
 
+# Edits from Mehdi. List of useful packages.
 pip install jupyter
 pip install numpy
 pip install pandas
