@@ -2,6 +2,7 @@
 echo "virtual environment name: $1"
 # first change directory to where the venv should be created
 # cd ~/python-venvs
+
 virtualenv $1
 source $1/bin/activate
 
